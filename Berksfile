@@ -2,4 +2,4 @@ source "https://api.berkshelf.com"
 
 metadata
 
-cookbook "supervisor", github: "poise/supervisor"
+cookbook "supervisor", ">=0.0.0", github: "poise/supervisor"
