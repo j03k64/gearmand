@@ -1,3 +1,4 @@
+#encoding: utf-8
 name              "gearmand"
 description       "Installs Gearman Server"
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
