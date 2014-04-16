@@ -1,7 +1,7 @@
 # Define the gearmand service
 service "gearmand" do
   service_name "gearmand"
-  action :nothing,
+  action :nothing
   supports :status => true,
     :start => true,
     :stop => true,
