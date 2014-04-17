@@ -1,7 +1,3 @@
-include_recipe "gearmand::install"
-include_recipe "gearmand::install"
-include_recipe "gearmand::service"
-
 # install
 case node.platform_family
 when "rhel", "fedora", "amazon", "centos"
