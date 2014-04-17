@@ -30,6 +30,12 @@ Attributes
     <td>Port to run gearmand on</td>
     <td><tt>4730</tt></td>
   </tr>
+  <tr>
+    <td><tt>['gearmand']['more_options']</tt></td>
+    <td>String</td>
+    <td>More options to pass into gearmand</td>
+    <td><tt>&lt;empty&gt;</tt></td>
+  </tr>
 </table>
 
 Usage

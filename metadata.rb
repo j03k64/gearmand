@@ -14,8 +14,6 @@ supports 'centos'
 supports 'amazon'
 supports 'fedora'
 
-depends 'supervisor'
-
 attribute "gearmand/job_retries",
   :display_name => "Gearmand Job Retries",
   :description => "Number of attempts to run the job before the job server removes it. This is helpful to ensure a bad job does not crash all available workers. Default is no limit.",

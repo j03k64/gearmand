@@ -16,6 +16,7 @@
 
 default[:gearmand][:job_retries] = 0
 default[:gearmand][:port] = 4730
+default[:gearmand][:more_options] = ""
 
 case node[:platform]
 when 'redhat', 'centos', 'fedora', 'amazon'
